@@ -150,7 +150,7 @@ if inter=="open":
             else:
                 print("INVALID PNR NO.")
                 V='t'
-            f=open("uu.csv","r+",newline="")
+            f=open("uu.csv","w+",newline="")
             wobj=csv.writer(f)
             for i in range(0,len(J)):
                 wobj.writerow(J[i])
